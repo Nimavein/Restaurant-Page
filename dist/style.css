@@ -1,0 +1,85 @@
+body {
+    background-image: url("background-pic.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.brand-bar {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#brandbar-logo {
+    width: 10vh;
+    min-height: 10vh;
+    padding: 2vw;   
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator {
+    border: 1px solid white;
+    margin: 0;
+}
+
+.tab-buttons {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: ease 0.5s;
+    top: 0;
+    
+    
+}
+
+.tab-buttons:hover {
+    margin-top: -15px;
+}
+
+.tab-content {
+
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    min-height: 70vh;
+    border: solid black 1px;
+    border-radius: 1%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
