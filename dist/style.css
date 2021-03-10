@@ -71,7 +71,7 @@ body, html {
     display: flex;
     justify-content: center;
     margin-top: 4vh;
-    min-height: 70vh;
+    min-height: 65vh;
     border: solid black 1px;
     border-radius: 1%;
 }
@@ -82,4 +82,20 @@ body, html {
     justify-content: center;
     align-items: center;
 
+}
+
+.footer-text {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-div {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
 }

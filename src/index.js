@@ -3,6 +3,10 @@ import navBarInitialize from "./navbarLoad"
 import showHomeTab from "./homeTabLoad"
 import showMenuTab from "./menuTabLoad"
 import showContactTab from "./contactTabLoad"
+import footerInitialize from "./footerLoad"
+
+showHomeTab();
+navBarInitialize.homeTabButton.style.textDecoration = "underline";
 
 
 navBarInitialize.homeTabButton.addEventListener("click", function() {
